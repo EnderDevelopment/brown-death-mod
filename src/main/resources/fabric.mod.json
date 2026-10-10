@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "browndeathmod",
+  "version": "1.0.0",
+  "name": "Brown Death Mod",
+  "description": "A mod that kills players when they touch brown blocks.",
+  "authors": [
+    "bearmahoney12"
+  ],
+  "contact": {
+    "homepage": "https://github.com/bearmahoney12/browndeathmod",
+    "sources": "https://github.com/bearmahoney12/browndeathmod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bearmahoney12.browndeathmod.BrownDeathMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": ">=1.20.4"
+  }
+}
